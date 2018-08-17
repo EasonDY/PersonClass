@@ -17,4 +17,4 @@ private:
 	string address;
 };
 
-#endif // !1
+#endif
