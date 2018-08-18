@@ -7,7 +7,7 @@ using namespace std;
 class Person
 {
 public:
-	Person() {}
+	Person() = default;
 	Person(string nameS, string addressS) : name(nameS), address(addressS) {}
 	~Person() {}
 	string getName() const { return this->name; }
